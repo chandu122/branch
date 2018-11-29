@@ -1,0 +1,7 @@
+node('master')
+{
+stage('testing on master branch')
+{
+echo "hello iam master"
+}
+}
