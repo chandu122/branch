@@ -1,7 +1,7 @@
-node('master')
+node('test')
 {
-stage('testing on master branch')
+stage('testing on test branch')
 {
-echo "hello iam master"
+echo "hello iam tester"
 }
 }
